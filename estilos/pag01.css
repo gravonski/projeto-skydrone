@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --cor1: #1a1a3b;
+    --cor2: #2e2e2e;
+    --cor3: #32ff7e;
+    --cor4: #ffffff;
+
+    --fonte-padrão: "Open Sans", sans-serif;
+    --fonte-titulos: "Montserrat", sans-serif;
+    --fonte-secundaria: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor4);
+}
+
+header {
+    padding: 100px;
+    background: linear-gradient(to bottom,  #08082c, #32ff7e);
+}
+
+header > h1 {
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+header > p {
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    color: #ffffff; 
+    font-size: 2em;
+    font-weight: bold;
+}
