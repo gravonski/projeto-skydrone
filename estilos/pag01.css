@@ -18,14 +18,19 @@
     padding: 0px;
 }
 
+main {
+    min-width: 320px;
+    max-width: 800px;
+}
+
 body {
     font-family: var(--fonte-secundaria);
-    background-color: var(--cor4);
+    background: linear-gradient(to right, white, #2e2e2eac, #2e2e2ec3, white);
 }
 
 header {
     width: 100%;
-    height: 230px;
+    height: 180px;
     background: linear-gradient(to bottom,  #08082c, #2e2e2e);
     margin: auto;
 }
@@ -39,23 +44,12 @@ header > h1 {
     padding: 25px;
 }
 
-header > p {
-    font-family: var(--fonte-titulos);
-    text-align: center;
-    color: #ffffff; 
-    font-size: 1.6em;
-    font-weight: bold;
-    padding: 10px;
-    padding-bottom: 53px;
-}
-
 header > nav > a {
     font-family: var(--fonte-titulos);
     text-align: center;
     font-size: 1.1em;
     color: var(--cor4);
     padding: 10px 90px 10px 90px;
-    max-width: 500px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -70,7 +64,33 @@ nav > a:hover {
 
 nav {
     text-align: center;
-    padding: 10px;
     background-color: var(--cor2);
+    width: 100%;
+    height: 30px;
+    background: fixed;
+    padding-top: 20px;
 }
 
+.container {
+    display: flex;
+    gap: 80px; /* Espaçamento entre os cards */
+}
+
+.cards {
+    background-color: #ffffff;
+    padding: 40px;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 280px;
+    margin: 5px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#nh {
+    margin-left: 25px;
+}
+
+article > p {
+    width: 215px;
+}
