@@ -115,6 +115,23 @@ p.produ {
     padding: 15px;
 }
 
+article.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article.review > img {
+    
+}
+
+div#rev.botao {
+    margin: 0px ;
+    font-size: 20px;
+    width: 215px;
+    text-align: center;
+}
+
 section.cta {
     display: flex;
     flex-direction: row;
@@ -129,7 +146,7 @@ div.botao {
     width: 291px;
     padding: 7px;
     margin: 30px 0px 0px 0px;
-    color: #1A1A3B;
+    color: #551a8b;
     font-family: var(--fonte-titulos);
     font-size: 23px;
     font-weight: bold;
