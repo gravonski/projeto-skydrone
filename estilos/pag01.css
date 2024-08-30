@@ -16,10 +16,11 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body{
-    background: linear-gradient(1deg, #1b1b41 0.45%, #1f1f3b 18.14%, #262638 43.27%, #282626f8 99.57%);
+    background: linear-gradient(1deg, #1b1b41 0.45%, #1f1f3b 18.14%, #262638 43.27%, #302e2ef8 99.57%);
     height: auto;
 }
 
@@ -77,7 +78,6 @@ section.cards {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -86,7 +86,7 @@ article {
     border: 5px solid white;
     border-radius: 5%;
     width: 295px;
-    height: 450px;
+    height: 478px;
 }
 
 article > p {
@@ -119,17 +119,23 @@ article.review {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 article.review > img {
-    
+    margin: 5px 3px;
 }
 
 div#rev.botao {
     margin: 0px ;
-    font-size: 20px;
+    font-size: 18px;
     width: 215px;
     text-align: center;
+    margin: 7px;
+}
+
+article.review > h2 {
+    padding: 0px;
 }
 
 section.cta {
