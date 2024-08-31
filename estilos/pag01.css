@@ -50,6 +50,15 @@ nav > a {
     text-decoration: none;
 }
 
+nav > a:hover {
+    color: #32ff7e;
+    transition: 0.8s;
+}
+
+nav > a:active {
+    color: #32ff7e;
+}
+
 header > img {
     padding-top: 40px;
     min-width: 237px;
@@ -87,6 +96,7 @@ article {
     border-radius: 5%;
     width: 295px;
     height: 478px;
+    padding: 0px;
 }
 
 article > p {
@@ -132,6 +142,7 @@ div#rev.botao {
     width: 215px;
     text-align: center;
     margin: 7px;
+    color: #551a8b;
 }
 
 article.review > h2 {
@@ -144,7 +155,6 @@ section.cta {
     justify-content: center;
     align-items: center;
     gap: 65px;
-    
 }
 
 div.botao {
@@ -162,6 +172,12 @@ div.botao {
 
 div.botao > a {
     text-decoration: none;
+    color: #551a8b;
+}
+
+div.botao > a:hover{
+    color: #ae00ff;
+    transition-duration: 0.3s;
 }
 
 div.foto {
@@ -204,8 +220,13 @@ section.rodape {
     height: 250px;
 }
 
-section.rodape > p > a {
+section.rodape > a {
     text-decoration: none;
+}
+
+section#contato > a:hover {
+    color: #32ff7dbd;
+    transition-duration: 0.5s;
 }
 
 section#contato {
@@ -216,6 +237,10 @@ section#contato {
     flex-direction: column;
     justify-content: center;
     font-weight: bold;
+    color: #551a8b;
+}
+
+section#contato > a {
     color: #551a8b;
 }
 
