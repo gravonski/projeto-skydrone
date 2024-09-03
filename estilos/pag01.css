@@ -97,6 +97,7 @@ article {
     width: 295px;
     height: 478px;
     padding: 0px;
+    box-shadow: 5px 5px 5px #00000029;
 }
 
 article > p {
@@ -168,6 +169,11 @@ div.botao {
     font-weight: bold;
     line-height: normal;
     background-color: #32ff7e;
+    box-shadow: 5px 5px 5px #00000029;
+}
+
+div.botao:hover {
+    box-shadow: inset 6px 6px 13px 0px #541a8ba0;
 }
 
 div.botao > a {
